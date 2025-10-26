@@ -19,6 +19,21 @@ app.get('/api/talks', (req, res) => {
   });
 });
 
+app.get('/api/talks/speaker/:speaker', (req, res) => {
+  const speaker = req.params.speaker.toLowerCase();
+  fs.readFile(path.join(__dirname, 'talks.json'), 'utf8', (err, data) => {
+    if (err) {
+      res.status(500).send('Error reading talks data');
+      return;
+    }
+    const talks = JSON.parse(data);
+    const filteredTalks = talks.filter(talk =>
+      talk.speakers.some(s => s.toLowerCase().includes(speaker))
+    );
+    res.json(filteredTalks);
+  });
+});
+
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
