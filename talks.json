@@ -1,0 +1,44 @@
+[
+  {
+    "title": "The Future of JavaScript",
+    "speakers": ["Jane Doe"],
+    "categories": ["JavaScript", "Future Tech"],
+    "duration": 60,
+    "description": "A deep dive into the upcoming features of ECMAScript and what they mean for the future of web development."
+  },
+  {
+    "title": "Building Scalable APIs with Node.js",
+    "speakers": ["John Smith"],
+    "categories": ["Node.js", "API", "Backend"],
+    "duration": 60,
+    "description": "Learn how to design and build APIs that can handle millions of requests without breaking a sweat."
+  },
+  {
+    "title": "CSS Grid and Flexbox: A Love Story",
+    "speakers": ["Emily White", "David Green"],
+    "categories": ["CSS", "Frontend"],
+    "duration": 60,
+    "description": "A practical guide to mastering modern CSS layouts with Grid and Flexbox."
+  },
+  {
+    "title": "The Power of Serverless",
+    "speakers": ["Michael Black"],
+    "categories": ["Serverless", "Cloud", "Architecture"],
+    "duration": 60,
+    "description": "Discover the benefits of serverless architecture and how to leverage it to build cost-effective and scalable applications."
+  },
+  {
+    "title": "Introduction to Machine Learning with Python",
+    "speakers": ["KV Subbaiah Setty"],
+    "categories": ["Python", "Machine Learning"],
+    "duration": 60,
+    "description": "An introductory session on the basics of machine learning using Python and popular libraries like Scikit-learn."
+  },
+  {
+    "title": "WebAssembly: The Next Frontier",
+    "speakers": ["Chris Blue"],
+    "categories": ["WebAssembly", "Performance", "Frontend"],
+    "duration": 60,
+    "description": "Explore the world of WebAssembly and how it's changing the landscape of web development."
+  }
+]

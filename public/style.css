@@ -1,0 +1,83 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #007BFF;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-container {
+  margin-bottom: 1rem;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.schedule-container {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.schedule-item {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.schedule-item:last-child {
+  border-bottom: none;
+}
+
+.time-slot {
+  font-weight: bold;
+  color: #007BFF;
+}
+
+.talk-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.speakers {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.categories {
+  margin-top: 0.5rem;
+}
+
+.category {
+  display: inline-block;
+  background: #007BFF;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.break {
+  font-style: italic;
+  color: #666;
+}
